@@ -10,7 +10,7 @@ class ShippingService:
     SHIPPING_FAILED: str = 'failed'
 
     def __init__(self, repository, publisher):
-        self.repository = repository
+        self.repository = repository 
         self.publisher = publisher
 
     @staticmethod
